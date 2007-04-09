@@ -1,0 +1,34 @@
+#summary Homepage of the Wiki
+#labels homepage
+
+= Vusion =
+
+Welcome to Vusion on Google Code. This Wiki serves you as the documentation for Vusion.
+
+= Downloading =
+Currently the 0.2 is in beta phase. You can grab it with subversion:
+{{{
+svn checkout http://vusion.googlecode.com/svn/trunk vusion
+}}}
+
+= Installing =
+Simply run install.py as root.
+
+
+= Documentation =
+== Wiki ==
+* [[Requirements]]
+* [[Configing Vusion]]
+* [[Creating a Show File]]
+* [[Starting Vusion]]
+* [[Using a MIDI Interface]]
+* [[Dual-Mode]]
+* [[Troubleshooting]]
+
+== Download ==
+Currently there is no downloadable documentation. There will be when 0.2 goes public.
+
+= External Links =
+
+* http://www.launchpad.net/vusion - Vusion on Launchpad
+* http://picasaweb.google.com/cstranex/Vusion02Beta1 - Vusion Screenshot Gallery
