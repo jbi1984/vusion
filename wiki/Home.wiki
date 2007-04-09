@@ -1,6 +1,4 @@
-#summary Homepage of the Wiki
 #labels homepage,Featured
-
 = Vusion =
 
 Welcome to Vusion on Google Code. This Wiki serves you as the documentation for Vusion.
@@ -14,9 +12,7 @@ svn checkout http://vusion.googlecode.com/svn/trunk vusion
 = Installing =
 Simply run install.py as root.
 
-
 = Documentation =
-== Wiki ==
    * [[Requirements]]
    * [[Configing Vusion]]
    * [[Creating a Show File]]
@@ -25,8 +21,8 @@ Simply run install.py as root.
    * [[Dual Mode Vusion]]
    * [[Troubleshooting]]
 
-== Download ==
-Currently there is no downloadable documentation. There will be when 0.2 goes public.
+= Developers =
+   * [[Chris Stranex]]
 
 = External Links =
 
