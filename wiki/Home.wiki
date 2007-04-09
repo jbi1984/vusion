@@ -1,5 +1,5 @@
 #summary Homepage of the Wiki
-#labels homepage
+#labels homepage,Featured
 
 = Vusion =
 
@@ -17,18 +17,18 @@ Simply run install.py as root.
 
 = Documentation =
 == Wiki ==
-* [[Requirements]]
-* [[Configing Vusion]]
-* [[Creating a Show File]]
-* [[Starting Vusion]]
-* [[Using a MIDI Interface]]
-* [[Dual-Mode]]
-* [[Troubleshooting]]
+   * [[Requirements]]
+   * [[Configing Vusion]]
+   * [[Creating a Show File]]
+   * [[Starting Vusion]]
+   * [[Using a MIDI Interface]]
+   * [[Dual Mode Vusion]]
+   * [[Troubleshooting]]
 
 == Download ==
 Currently there is no downloadable documentation. There will be when 0.2 goes public.
 
 = External Links =
 
-* http://www.launchpad.net/vusion - Vusion on Launchpad
-* http://picasaweb.google.com/cstranex/Vusion02Beta1 - Vusion Screenshot Gallery
+   * http://www.launchpad.net/vusion - Vusion on Launchpad
+   * http://picasaweb.google.com/cstranex/Vusion02Beta1 - Vusion Screenshot Gallery
