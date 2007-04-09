@@ -1,6 +1,6 @@
 #summary ToDo for Vusion
 
-===0.2 beta 1
+=== 0.2 beta 1 ===
    * Write [Dual_Mode Dual Mode] code
    * Fix VusionError module to properly handle errors (read the configuration file)
    * Write the specification for a [Vusion_Show_XML_Document_Specification Vusion Show XML Document]
