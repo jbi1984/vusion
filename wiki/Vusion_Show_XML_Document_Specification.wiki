@@ -1,4 +1,5 @@
 #summary The Vusion Show XML Document Specification defines how to write a Show XML file that Vusion parsers to interface with a MIDI Controller.
+#labels Phase-Design,Phase-Implementation,Documentation,Specification,Draft
 
 = Introduction =
 The Show XML Document Specification 1.0 is currently in development and subject to change. This wiki exists to document how to write a file and what elements are required etc.
@@ -43,7 +44,8 @@ The Show XML Document Specification 1.0 is currently in development and subject 
 
 == Elements ==
 === vusionshow ==
-{{{ <vusionshow version="VERSION">
+{{{
+<vusionshow version="VERSION">
 ...
 </vusionshow> }}}
 
@@ -57,7 +59,8 @@ Children:
    * dimensions
 
 === Metadata ===
-{{{ <metadata>
+{{{
+<metadata>
 ...
 </metadata> }}}
 
@@ -136,3 +139,76 @@ Children:
    * none
 
 === default ===
+{{{
+<default>
+...
+</default>
+}}}
+
+This tag is *required*. The default tag contains what visual settings Vusion needs to start up with. For example its gamma, what's loaded on each surface.
+Attributes:
+   * none
+Children:
+   * gamma
+   * transition
+   * surface
+
+=== gamma ===
+{{{ <gamma all="VALUE" /> }}}
+
+This tag is optional. By default the gamma is set to 1. r,g,b attributes are optional. Gamma values range from 0 to 255
+Attributes:
+   * all - Gamma value for RGB.
+   * r - Gamma value for Red
+   * g - Gamma value for Green
+   * b - Gamma value for Blue
+Children:
+   * none
+
+=== transition ===
+{{{ <transition value="VALUE" /> }}}
+
+This tag is optional. By default the transition value is set to 64. This sets the position of transition on screen from 0 (Surface A) to 255 (Surface B).
+Attributes:
+   * value - An integer between 0 and 127.
+Children:
+   * none
+
+=== surface ===
+{{{ <surface n="SURFACE" type="TYPE" file="FILE" /> }}}
+
+This tag is *required*. The surface tag tells Vusion what to load initally to a surface.
+Attributes:
+   * n - The surface (either a or b)
+   * type - The type the surface is (either: image, video or live)
+   * file - The file/index to load. Note: Images support a question mark (?) after the file to specify an X and Y coordinate. Eg: "test.png?100x0" will load the test.png image 100 to the right of the left corner of the screen.
+
+=== midi ===
+{{{
+<midi>
+...
+</midi>
+}}}
+
+This tag is *required*. The midi tag keeps all the midi bindings for a midi controller.
+Attributes:
+   * none
+Children:
+   * note
+   * cc
+
+=== note ===
+{{{ <note n="NOTE" c="CHANNEL" action="FUNCTION" /> }}}
+At least one tag should be present in a file. This assigns a function to a MIDI Noteon event. 
+Attributes:
+   * n - the note in numerical value
+   * c - midi channel (1 - 16)
+   * action - The function to execute. See the [MIDI_Functions MIDI Functions] page.
+
+=== cc ===
+{{{ <cc n="NUMBER" c="CHANNEL" change="ATTRIBUTE" /> }}}
+At least one tag should be present in a file thought it is not required. This assigns an attribute to a MIDI cc event.
+Attributes:
+   * n - the number of the message
+   * c - midi channel (1 - 16)
+   * change - The attribute of Vusion to change. See the [MIDI_Attributes MIDI Attributes] page.
