@@ -13,16 +13,16 @@ svn checkout http://vusion.googlecode.com/svn/trunk vusion
 Simply run install.py as root.
 
 = Documentation =
-   * [[Requirements]]
-   * [[Configing_Vusion]]
-   * [[Creating_a_Show File]]
-   * [[Starting_Vusion]]
-   * [[Using_a_MIDI Interface]]
-   * [[Dual_Mode_Vusion]]
-   * [[Troubleshooting]]
+   * [Requirements]
+   * [Configuring_Vusion Configing Vusion]
+   * [Creating_a_Show Creating a Show File]
+   * [Starting_Vusion Starting Vusion]]
+   * [Using_a_MIDI_Interface Using a MIDI Interface]]
+   * [Dual_Mode_Vusion Dual-Mode Vusion]]
+   * [Troubleshooting]
 
 = Developers =
-   * [[Chris_Stranex]]
+   * [Chris_Stranex Chris Stranex]
 
 = External Links =
 
