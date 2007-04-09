@@ -16,15 +16,17 @@ Simply run install.py as root.
    * [Requirements]
    * [Configuring_Vusion Configing Vusion]
    * [Creating_a_Show Creating a Show File]
-   * [Starting_Vusion Starting Vusion]]
-   * [Using_a_MIDI_Interface Using a MIDI Interface]]
-   * [Dual_Mode_Vusion Dual-Mode Vusion]]
+   * [Starting_Vusion Starting Vusion]
+   * [Using_a_MIDI_Interface Using a MIDI Interface]
+   * [Dual_Mode_Vusion Dual-Mode Vusion]
    * [Troubleshooting]
 
 = Developers =
    * [Chris_Stranex Chris Stranex]
 
-= External Links =
+= Draft Specifications =
+   * [http://code.google.com/p/vusion/w/edit/Vusion_Show_XML_Document_Specification Vusion Show XML Document Specification] - version 1.0
 
+= External Links =
    * http://www.launchpad.net/vusion - Vusion on Launchpad
    * http://picasaweb.google.com/cstranex/Vusion02Beta1 - Vusion Screenshot Gallery
