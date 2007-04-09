@@ -1,0 +1,27 @@
+#summary Editing the vusion.conf configuration file
+#labels Phase-Deploy,Configuration,Documentation
+
+vusion.conf can be found at _/etc/vusion/vusion.conf_ or at a location of your choice if you specify it on the command line.
+
+= Structure =
+The file is split into sections. Each section is defined by a name in square-brackets.
+
+== Window Section ==
+* single_mode - Single mode is a boolean value telling vusion to start with two windows for [Dual_Mode Dual Mode] or one.
+
+== MIDI Section ==
+* device - The MIDI device. You can use the command _vusion-list-midi_ to list the midi device numbers.
+
+== Keyboard Section ==
+The keyboard section is only used when in [Dual_Mode Dual Mode]. If its not in Dual Mode you will have to control Vusion by a MIDI controller only.
+
+* viewer_live - The key that selects the live video feeds
+* viewer_video - The key that selects videos
+* viewer_image - The key that selects images
+* viewer_surface - The key that selects a surface in the preview window
+* viewer_capture - Captures video if the selected surface contains a live video feed.
+* viewer_play_pause - Play/Pause a selected surface if it contains a video
+* viewer_stop - Stop a selected surface if it contains a video
+* viewer_savecapture - Select where to save the next live video capture to
+* display_quit - Quit Vusion
+* display_fullscreen = Activate/Deactivate fullscreen mode for the main window
