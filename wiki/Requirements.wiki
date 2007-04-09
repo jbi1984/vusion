@@ -1,5 +1,5 @@
 #summary Requirements of Vusion.
-#labels Phase-Requirements,Featured
+#labels Phase-Requirements,Featured,Documentation
 
 Items marked in *bold* are required.
 
@@ -11,7 +11,7 @@ Items marked in *bold* are required.
    * *PortMIDI*
 
 = Linux =
-   * PyV4L is needed for live video feeds.
+   * [PyV4L] is needed for live video feeds.
 
 = Mac OS X =
    * Unless Video4Linux works on Mac then there is no live feed support
