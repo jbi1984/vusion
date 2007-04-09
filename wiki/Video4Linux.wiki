@@ -1,2 +1,2 @@
 #labels video4linux
-Video4Linux is the video capture API for Linux that Vusion relies on to deliver video from live sources (though the use of a tv card).
+[http://linuxtv.org/v4lwiki/index.php/Main_Page Video4Linux] is the video capture API for Linux that Vusion relies on to deliver video from live sources (though the use of a tv card).
