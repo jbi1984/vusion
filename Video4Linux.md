@@ -1,0 +1,1 @@
+[Video4Linux](http://linuxtv.org/v4lwiki/index.php/Main_Page) is the video capture API for Linux that Vusion relies on to deliver video from live sources (though the use of a tv card).
